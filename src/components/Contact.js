@@ -38,7 +38,6 @@ export const Contact = () => {
     validationSchema,
     onSubmit: () => {
       setButtonText("Sending...");
-      console.log("val", form.current);
       emailjs
         .sendForm(
           process.env.REACT_APP_EMAILJS_SERVICE_ID,
@@ -54,7 +53,6 @@ export const Contact = () => {
               data: result,
               message: "Message sent successfully",
             });
-            console.log("cf result", result);
           },
           (error) => {
             setStatus({
@@ -62,7 +60,6 @@ export const Contact = () => {
               data: error,
               message: "Something went wrong, please try again later.",
             });
-            console.log("cf error", error);
           }
         );
 
