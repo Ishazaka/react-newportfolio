@@ -27,10 +27,10 @@ const products = [
 const Product = () => {
   return (
     <section className="product-con" id="products">
-      <h1 className="pro-head">Products</h1>
+      <h1 className="pro-head">Projects</h1>
       <p className="pro-des">
         Here you will find some of the personal and clients projects that I
-        created with each project containing its own case study
+        created with each project containing its own github and live link
       </p>
       {products.map((pro) => {
         return (
@@ -42,8 +42,8 @@ const Product = () => {
               <h2>{pro.title}</h2>
               <p>{pro.des}</p>
               <div>
-                <button className="pro-btn">Button 1</button>
-                <button className="pro-btn">Button 2</button>
+                <button className="pro-btn">Github</button>
+                <button className="pro-btn">Live</button>
               </div>
             </div>
           </div>

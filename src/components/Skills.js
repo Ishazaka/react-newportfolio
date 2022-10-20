@@ -1,10 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-// import meter1 from "../assets/img/meter1.svg";
-// import meter2 from "../assets/img/meter2.svg";
-// import meter3 from "../assets/img/meter3.svg";
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 import html from "../assets/img/html.png";
@@ -12,14 +7,15 @@ import css from "../assets/img/css.png";
 import javascript from "../assets/img/javascript.png";
 import reactImage from "../assets/img/react.png";
 import nextjs from "../assets/img/nextjs.png";
-import graphql from "../assets/img/graphql.png";
 import github from "../assets/img/github.png";
-import tailwind from "../assets/img/tailwind.png";
+import bootstrap from "../assets/img/bootstrap.png";
+import node from "../assets/img/node.png";
+import Git from "../assets/img/Git.png";
+
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -39,16 +35,10 @@ export const Skills = () => {
 
   const techs = [
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-400",
     },
     {
       id: 3,
@@ -58,14 +48,22 @@ export const Skills = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-700",
     },
+
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
+      src: reactImage,
+      title: "React",
       style: "shadow-sky-400",
     },
     {
@@ -76,9 +74,9 @@ export const Skills = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: node,
+      title: "Nodejs",
+      style: "shadow-green-400",
     },
     {
       id: 8,
@@ -86,6 +84,14 @@ export const Skills = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: Git,
+      title: "Git",
+      style: "shadow-orange-700",
+    },
+   
+    
   ];
 
   return (

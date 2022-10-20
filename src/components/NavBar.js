@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon5.svg";
+// import navIcon2 from "../assets/img/nav-icon5.svg";
 import navIcon3 from "../assets/img/nav-icon6.svg";
+import github from "../assets/img/github.png";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -71,7 +72,7 @@ export const NavBar = () => {
                 style={{ marginTop: "1vh", marginBottom: "1vh" }}
                 onClick={() => onUpdateActiveLink("products")}
               >
-                Products
+                Projects
               </Nav.Link>
             </Nav>
             <span
@@ -83,7 +84,7 @@ export const NavBar = () => {
                   <img src={navIcon1} alt="" />
                 </a>
                 <a href="/">
-                  <img src={navIcon2} alt="" />
+                  <img src={github} alt="" />
                 </a>
                 <a href="/">
                   <img src={navIcon3} alt="" />
