@@ -114,7 +114,7 @@ export const Contact = () => {
                           id="lastName"
                           name="lastName"
                           value={formik.values.lastName}
-                          placeholder="Last Name"
+                          placeholder="Last Name (optional)"
                           onChange={formik.handleChange}
                         />
                         {formik.errors.lastName && (
@@ -140,7 +140,7 @@ export const Contact = () => {
                           id="phone"
                           name="phone"
                           value={formik.values.phone}
-                          placeholder="Phone No."
+                          placeholder="Phone No. (optional)"
                           onChange={formik.handleChange}
                         />
                         {formik.errors.phone && (

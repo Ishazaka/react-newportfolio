@@ -102,16 +102,15 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                
+              Here you will find more information about my skills. <br></br> what I do mostly in terms of programming and technology
               </p>
               <Carousel
                 responsive={responsive}
                 infinite
                 arrows={false}
                 autoPlay
-                autoPlaySpeed={2000}
+                autoPlaySpeed={1500}
                 className="owl-carousel owl-theme skill-slider"
               >
                 {techs.map(({ id, src, title, style }) => (

@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 // import navIcon2 from "../assets/img/nav-icon5.svg";
+import coding from '../assets/img/coding.gif'
 import navIcon3 from "../assets/img/nav-icon6.svg";
 import github from "../assets/img/github.png";
 import { HashLink } from "react-router-hash-link";
@@ -34,9 +34,10 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container className="nav-con">
-          <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
-          </Navbar.Brand>
+        <img style={{width: '90px' , borderRadius: '50%' , marginRight: '20px'}} src={coding} alt="Logo" />
+          <Navbar.Brand href="#home">
+       <h1 className="navbar-logoo">ISHA</h1>
+        </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
@@ -80,13 +81,13 @@ export const NavBar = () => {
               style={{ marginTop: "1vh", marginBottom: "1vh" }}
             >
               <div className="social-icon">
-                <a href="/">
+                <a rel="noreferrer noopener" target='_blank' href="https://www.linkedin.com/in/isha-z/">
                   <img src={navIcon1} alt="" />
                 </a>
-                <a href="/">
+                <a rel="noreferrer noopener" target='_blank' href="https://github.com/Ishazaka">
                   <img src={github} alt="" />
                 </a>
-                <a href="/">
+                <a rel="noreferrer noopener" target='_blank' href="mailto:ishazaka1010@gmail.com">
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
