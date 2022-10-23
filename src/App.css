@@ -351,6 +351,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   align-items: center;
 }
+.banner a {
+  color: blueviolet;
+}
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
@@ -493,7 +496,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%); */
   color: white;
   font-weight: 500;
-  padding: 0.5vw 2vw;
+  padding: 0.5vw 3vw;
   margin: 5px 10px;
   border: 1px solid white;
 }

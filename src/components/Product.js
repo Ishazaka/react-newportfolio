@@ -59,7 +59,9 @@ const Product = () => {
               <h2>{pro.title}</h2>
               <p>{pro.des}</p>
               <span><strong>{`Technologies : `} </strong>{pro.tech}</span>
-              <div>
+              <div 
+              style={{margin: '10px 0'}}
+              >
                 <a rel="noreferrer noopener" target='_blank' href={pro.gitlink}>
                   <button className="pro-btn">Github</button>
                 </a>

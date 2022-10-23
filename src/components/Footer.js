@@ -25,7 +25,7 @@ export const Footer = () => {
               <a rel="noreferrer noopener" target='_blank' href="https://github.com/Ishazaka">
                 <img src={github} alt="Icon" />
               </a>
-              <a target='_blank' href="mailto:ishazaka1010@gmail.com">
+              <a rel="noreferrer noopener" target='_blank' href="mailto:ishazaka1010@gmail.com">
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>

@@ -1,9 +1,14 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import img1 from "../assets/img/blogs/img1.jpeg";
 
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+
+
+
+import img2 from "../assets/img/blogs/img2.jpeg";
+
+import img3 from "../assets/img/blogs/img3.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,19 +17,20 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "ES6",
+      description: "Use of Let, Var and Const",
+      imgUrl: img1,
+      link: 'https://blog.devgenius.io/let-var-and-const-in-js-2f6226457d2f'
+    },
+    {
+      title: "Library of Javascript",
+      description: "React Vs Angular. What is Better and Why?",
+      imgUrl: img3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: img2,
     },
   ];
 
