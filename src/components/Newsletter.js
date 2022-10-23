@@ -10,14 +10,17 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    email &&
-      email.indexOf("@") > -1 &&
-      onValidated({
-        EMAIL: email,
-      });
+    setTimeout(()=>   clearFields() , 400)
+  
+    // email &&
+      // email.indexOf("@") > -1 &&
+      // onValidated({
+      //   EMAIL: email,
+      // });
   };
 
   const clearFields = () => {
+   
     setEmail("");
   };
 

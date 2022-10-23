@@ -3,11 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import img1 from "../assets/img/blogs/img1.jpeg";
 
 
-
-
-import img2 from "../assets/img/blogs/img2.jpeg";
-
-import img3 from "../assets/img/blogs/img3.png";
+import blog3 from '../assets/img/blogs/blog3.jpeg'
+import blog2 from '../assets/img/blogs/blog2.png'
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -18,19 +15,21 @@ export const Projects = () => {
   const projects = [
     {
       title: "ES6",
-      description: "Use of Let, Var and Const",
+      description: "Use of Let, Var and Const. When should we use that",
       imgUrl: img1,
       link: 'https://blog.devgenius.io/let-var-and-const-in-js-2f6226457d2f'
     },
     {
-      title: "Library of Javascript",
+      title: "Framework of Javascript",
       description: "React Vs Angular. What is Better and Why?",
-      imgUrl: img3,
+      imgUrl: blog2,
+      link: 'https://medium.com/@Isha_'
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: img2,
+      title: "Tech Blogs",
+      description: "Blogs related to Js, React, HTML and Css",
+      imgUrl: blog3,
+      link: 'https://medium.com/@Isha_'
     },
   ];
 
@@ -43,7 +42,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div
               //  className={isVisible ? "animate__animated animate__fadeIn": ""}
-              >
+             >
                 <h2>Tech Blogs</h2>
                 <p>I like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Medium Community.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -60,7 +59,8 @@ export const Projects = () => {
                   </Nav> */}
                   <Tab.Content id="slideInUp" 
                   // className={isVisible ? "animate__animated animate__slideInUp" : ""}
-                  >
+               
+                 >
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
