@@ -1,7 +1,7 @@
 # Personal Portfolio Website in React
 
 
-<img width="1266" alt="isha portfolio" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd2.png">
+<img width="1266" alt="portfolio" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd2.png">
 
 Built using:
 
