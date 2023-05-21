@@ -81,7 +81,7 @@ export const NavBar = () => {
               style={{ marginTop: "1vh", marginBottom: "1vh" }}
             >
               <div className="social-icon">
-                <a rel="noreferrer noopener" target='_blank' href="https://www.linkedin.com/in/isha-z/">
+                <a rel="noreferrer noopener" target='_blank' href="https://www.linkedin.com/in/isha-zz/">
                   <img src={navIcon1} alt="" />
                 </a>
                 <a rel="noreferrer noopener" target='_blank' href="https://github.com/Ishazaka">
